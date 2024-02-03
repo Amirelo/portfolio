@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Projects</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Personal info -->
+    <img src="./user.jpg" alt="User Picture" width="20%" style="border-radius: 10px;">
+    <p>Trần Vũ Minh Đăng</p>
+    <p>Mobile Developer</p>
+    <p>Undergraduate: FPT Polytechnic</p>
+    <p>Degree: Computer Science</p>
+    <p>Phone number: +84 582 814 653</p>
+
+    <!-- Projects -->
+    <section class="projects">
+        <article class="itemProject">
+            <div>
+                <img src="project1.jpg" width="200px" />
+            </div>
+            <div>
+                <h2>Laptop App (new)</h2>
+                <p>Personal Project</p>
+                <p>Start date - End date: 08/2023 - 11/2023</p>
+                <p>Technology: React Native, Firebase</p>
+                <p>Description: Application to sell laptop</p>
+                
+                <!-- What done in app -->
+                <div>
+                    <p>What to expect:</p>
+                    <ol>
+                        <li>Sign In / Sign Up with Firebase</li>
+                        <li>View products, products detail, orders, etc.</li>
+                        <li>Change languages and themes</li>
+                        <li>Search, sort, change product display mode</li>
+                        <li>Update user info</li>
+                        <li>App are wrapped with useContext for accessing services (get data from server)</li>
+                    </ol>
+                </div>
+                <!-- What have NOT done -->
+                <div>
+                    <p>What are not done:</p>
+                    <ol>
+                        <li>Send message about order status</li>
+                    </ol>
+                </div>
+            </div>
+        </article>
+
+        <article class="itemProject">
+            <div>
+                <img src="florist_shop.jpg" width="200px" />
+            </div>
+            <div>
+                <h2>Florist Shop App</h2>
+                <p>Personal Project</p>
+                <p>Start date - End date: 01/2024 - NOW</p>
+                <p>Technology: React Native, Firebase</p>
+                <p>Description: Application to sell laptop</p>
+                <div>
+                    <p>What to expect:</p>
+                    <ol>
+                        <li>Sign In / Sign Up / Change Password with Firebase</li>
+                        <li>View products, products detail, orders, etc.</li>
+                        <li>Change languages and themes</li>
+                        <li>Search, sort, change product display mode</li>
+                        <li>App are wrapped with Redux for modifying global state</li>
+                    </ol>
+                </div>
+                <!-- What have NOT done -->
+                <div>
+                    <p>What are not done:</p>
+                    <ol>
+                        <li>Still ongoing</li>
+                    </ol>
+                </div>
+            </div>
+        </article>
+    </section>
+
+</body>
+
+</html>
