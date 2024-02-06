@@ -18,86 +18,155 @@
     </nav>
 
     <!-- Personal info -->
-    <img src="./user.jpg" alt="User Picture" width="20%" height="20%" style="border-radius: 10px;">
-    <p>Trần Vũ Minh Đăng</p>
-    <p>Mobile Developer</p>
-    <p>Undergraduate: FPT Polytechnic</p>
-    <p>Degree: Computer Science</p>
-    <p>Phone number: +84 582 814 653</p>
+    <h1>Personal Information</h1>
+    <div class="personal_info">
+        <img src="./user.jpg" alt="User Picture" width="20%" height="20%" style="border-radius: 10px;">
+        <div>
+            <div class="personal_info_row" style="border-top: 1px solid black;">
+                <p>Full Name:</p>
+                <p>Trần Vũ Minh Đăng</p>
+            </div>
+            <div class="personal_info_row">
+                <p>Profession:</p>
+                <p>Part-time Programming Teacher</p>
+            </div>
+            <div class="personal_info_row">
+                <p>Undergraduate:</p>
+                <p>FPT Polytechnic</p>
+            </div>
+            <div class="personal_info_row">
+                <p>Major:</p>
+                <p>Computer Science</p>
+            </div>
+            <div class="personal_info_row">
+                <p>Phone number:</p>
+                <p>(+84) 582 814 653</p>
+            </div>
+            <div class="personal_info_row">
+                <p>Seeking for:</p>
+                <p>Intern/Fresher Mobile Developer job</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Projects -->
+    <h1>Coding Projects</h1>
     <section class="projects">
-        <article class="itemProject">
+        <article class="project_item">
             <div>
-                <img src="project1.jpg" width="200px" />
+                <img src="florist_shop.jpg" class="img_cover" width="200px" />
             </div>
             <div>
-                <h2>Laptop App (new)</h2>
+                <h2>Florist Shop</h2>
                 <p>Personal Project</p>
-                <p>Start date - End date: 08/2023 - 11/2023</p>
-                <p>Technology: React Native, Firebase</p>
-                <p>Description: Application to sell laptop</p>
+                <div class="project_row">
+                    <p>Status:</p>
+                    <p>Ongoing</p>
+                </div>
+                <div class="project_row">
+                    <p>Start - End:</p>
+                    <p>01/2024 - NOW</p>
+                </div>
+                <div class="project_row">
+                    <p>Technology:</p>
+                    <p>React Native, Firebase</p>
+                </div>
+                <div class="project_row" style="margin-bottom: 40px;">
+                    <p>Description:</p>
+                    <p>Sell bouquet</p>
+                </div>
 
-                <!-- What done in app -->
-                <div>
-                    <p>What to expect:</p>
-                    <ol>
-                        <li>Sign In / Sign Up with Firebase</li>
-                        <li>View products, products detail, orders, etc.</li>
-                        <li>Change languages and themes</li>
-                        <li>Search, sort, change product display mode</li>
-                        <li>Update user info</li>
-                        <li>App are wrapped with useContext for accessing services (get data from server)</li>
-                    </ol>
-                </div>
-                <!-- What have NOT done -->
-                <div>
-                    <p>What are not done:</p>
-                    <ol>
-                        <li>Send message about order status</li>
-                    </ol>
-                </div>
+                <a class="button_project" href="florist_project.html">See More</a>
             </div>
         </article>
 
-        <article class="itemProject">
+        <article class="project_item">
             <div>
-                <img src="florist_shop.jpg" width="200px" />
+                <img src="project1.jpg" class="img_cover" width="200px" />
             </div>
             <div>
-                <h2>Florist Shop App</h2>
+                <h2>Laptop Firebase</h2>
                 <p>Personal Project</p>
-                <p>Start date - End date: 01/2024 - NOW</p>
-                <p>Technology: React Native, Firebase</p>
-                <p>Description: Application to sell bouquet</p>
-                <div>
-                    <p>What to expect:</p>
-                    <ol>
-                        <li>Sign In / Sign Up / Change Password with Firebase</li>
-                        <li>View products, products detail, orders, etc.</li>
-                        <li>Change languages and themes</li>
-                        <li>Search, sort, change product display mode</li>
-                        <li>App are wrapped with Redux for modifying global state</li>
-                    </ol>
+                <div class="project_row">
+                    <p>Status:</p>
+                    <p>Ongoing</p>
                 </div>
-                <!-- What have NOT done -->
-                <div>
-                    <p>What are not done:</p>
-                    <ol>
-                        <li>Still ongoing</li>
-                    </ol>
+                <div class="project_row">
+                    <p>Start - End:</p>
+                    <p>08/2023 - 11/2023</p>
                 </div>
+                <div class="project_row">
+                    <p>Technology:</p>
+                    <p>React Native, Firebase</p>
+                </div>
+                <div class="project_row" style="margin-bottom: 40px;">
+                    <p>Description:</p>
+                    <p>sell laptop</p>
+                </div>
+
+                <a class="button_project" href="laptop_project_new.html">See More</a>
             </div>
         </article>
+
+        <article class="project_item">
+            <div>
+                <img src="project1.jpg" class="img_cover" width="200px" />
+            </div>
+            <div>
+                <h2>Laptop Original</h2>
+                <p>Personal Project</p>
+                <div class="project_row">
+                    <p>Status:</p>
+                    <p>Ongoing</p>
+                </div>
+                <div class="project_row">
+                    <p>Start - End:</p>
+                    <p>08/2023 - 11/2023</p>
+                </div>
+                <div class="project_row">
+                    <p>Technology:</p>
+                    <p>React Native, Expo, PHP, MySQL</p>
+                </div>
+                <div class="project_row" style="margin-bottom: 40px;">
+                    <p>Description:</p>
+                    <p>My graduation project</p>
+                </div>
+
+                <a class="button_project" href="laptop_project_old.html">See More</a>
+            </div>
+        </article>
+
+
     </section>
 
+    <h1>Hobbies</h1>
     <section>
-        <h1>Hobbies</h1>
         <article>
-            <img style="border-radius: 4px;" src="donut.png" width="30%" />
-            <p>Start date - End date: 05/02/2024 - 06/02/2024</p>
-            <p>Technology: Blender</p>
-            <p>Description: A small project</p>
+            <div>
+                <img src="donut.png" class="img_cover" width="200px" />
+            </div>
+            <div>
+                <h2>Donuts</h2>
+                <p>Practice</p>
+                <div class="project_row">
+                    <p>Status:</p>
+                    <p>Finished</p>
+                </div>
+                <div class="project_row">
+                    <p>Start - End:</p>
+                    <p>04/02/2023 - 06/02/2023</p>
+                </div>
+                <div class="project_row">
+                    <p>Technology:</p>
+                    <p>Blender</p>
+                </div>
+                <div class="project_row" style="margin-bottom: 40px;">
+                    <p>Description:</p>
+                    <p>A small animation showcase donuts</p>
+                </div>
+
+                <a class="button_project" href="donut.html">See More</a>
+            </div>
         </article>
     </section>
 
