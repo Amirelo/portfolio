@@ -1,3 +1,28 @@
+*{
+    margin:0
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 56px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+    margin: auto;
+    top: 50%;
+}
+
+nav a:hover {
+    transition: 500ms;
+    font-size: 18px;
+}
+
+
 .personal_info {
     display: flex;
     justify-content: center;
