@@ -1,8 +1,16 @@
-.projects{
+.projects {
     display: flex;
     flex-wrap: wrap;
 }
 
-.itemProject{
+.itemProject {
     display: flex;
 }
+
+.plang_php {}
+
+.plang_jvs {}
+
+.plang_kotlin {}
+
+.plang_flutter {}
