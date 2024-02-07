@@ -13,3 +13,7 @@
     border: 1px solid black;
 
 }
+
+.work_experience div {
+    flex:1
+}
