@@ -1,25 +1,47 @@
-*{
-    margin:0
+* {
+    margin: 0
 }
 
-nav{
+main{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav {
     display: flex;
     justify-content: space-around;
     background-color: black;
     height: 56px;
+    margin-bottom: 30px;
 }
 
 nav a {
+    width: 50%;
+    height: 100%;
     text-decoration: none;
     color: white;
     transition: 500ms;
-    margin: auto;
-    top: 50%;
+    background-color: #27ba4e;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a:hover {
     transition: 500ms;
     font-size: 18px;
+    background-color: #27ba4e80;
+}
+
+.nav_highlight {
+    font-size: 18px;
+    background-color: #27ba4e80;
 }
 
 
@@ -64,6 +86,11 @@ nav a:hover {
     border: 1px solid black;
     padding: 8px;
     background-color: #e1f2e6;
+    width: 30%;
+}
+
+.project_item_info{
+    display: flex; flex-direction: column; justify-content: space-between;
 }
 
 .project_row {
@@ -72,8 +99,8 @@ nav a:hover {
     border-bottom: 1px solid black;
 }
 
-.project_row p{
-    flex:1
+.project_row p {
+    flex: 1
 }
 
 .img_cover {
@@ -83,7 +110,25 @@ nav a:hover {
     margin-right: 12px;
 }
 
-.hobbies{
+.button_project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    transition: 500ms;
+    width: 100%;
+    height: 48px;
+}
+
+.button_project:hover {
+    background-color: #27ba4e;
+    transition: 500ms;
+}
+
+.hobbies {
     width: 40%;
     padding: 12px;
     border: 1px solid black;
@@ -95,23 +140,13 @@ nav a:hover {
 }
 
 
-h1,h2 {
+h1,
+h2 {
     color: darkblue;
+    margin-bottom: 8px;
 }
 
-.button_project {
-    text-decoration: none;
-    background-color: green;
-    color: white;
-    padding: 10px 14px 10px 14px;
-    border-radius: 4px;
-    transition: 500ms;
-}
 
-.button_project:hover {
-    background-color: #27ba4e;
-    transition: 500ms;
-}
 
 p,
 h1,
