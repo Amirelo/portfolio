@@ -140,6 +140,35 @@ nav a:hover {
     width: 100%;
 }
 
+
+.header_project{
+    display: flex;
+    align-items: center;
+    background-color: #e1f2e6;
+    margin-bottom: 20px;
+}
+
+.header_project a{
+    border: 1px solid black;
+    background-color: #27ba4e;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+    position: absolute;
+    transition: 500ms;
+}
+
+.header_project a:hover{
+    background-color: white;
+    transition: 500ms;
+}
+
+.header_project h1 {
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
 .completed {
     color: #27ba4e;
     font-weight: bold;
